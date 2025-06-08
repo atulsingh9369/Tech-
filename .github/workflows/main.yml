@@ -1,0 +1,77 @@
+<!DOCTYPE html><html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Atul Singh | Personal Profile</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f3f4f6;
+      color: #111827;
+    }
+    header {
+      background: #1f2937;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      background: #374151;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #1f2937;
+      color: white;
+    }
+    img.profile {
+      width: 150px;
+      height: 150px;
+      border-radius: 9999px;
+      object-fit: cover;
+      margin: 1rem 0;
+    }
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Atul Singh</h1>
+    <p>Welcome to my personal website | मेरी व्यक्तिगत वेबसाइट में आपका स्वागत है</p>
+    <img class="profile" src="https://via.placeholder.com/150" alt="Atul Singh" />
+  </header>  <nav>
+    <a href="#about">About / परिचय</a>
+    <a href="#gallery">Gallery / गैलरी</a>
+    <a href="#contact">Contact / संपर्क</a>
+  </nav>  <section id="about">
+    <h2>About Me / मेरे बारे में</h2>
+    <p>Hello! I'm Atul Singh, a passionate and creative individual from Prayagraj. I love technology, gaming (especially Free Fire), and creating new things online.</p>
+    <p>नमस्ते! मैं अतुल सिंह हूँ, प्रयागराज का एक रचनात्मक और तकनीक-प्रेमी युवक। मुझे Free Fire और ऑनलाइन चीजें बनाना बहुत पसंद है।</p>
+  </section>  <section id="gallery">
+    <h2>Gallery / गैलरी</h2>
+    <p>Coming soon... / जल्द ही आ रहा है...</p>
+  </section>  <section id="contact">
+    <h2>Contact Me / मुझसे संपर्क करें</h2>
+    <form>
+      <label>Name / नाम:<br><input type="text" name="name" required /></label><br><br>
+      <label>Email / ईमेल:<br><input type="email" name="email" required /></label><br><br>
+      <label>Message / संदेश:<
